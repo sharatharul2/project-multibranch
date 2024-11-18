@@ -14,7 +14,7 @@ pipeline {
             steps {
                 script {
                     sh 'docker build -t prabanjannode/multi:v3 .'
-                    sh 'docker images'
+                   
                 }
             }
         }
